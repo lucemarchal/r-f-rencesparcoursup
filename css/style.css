@@ -30,7 +30,7 @@ body {
 }
 
 #subRegion {
-    margin-top: -60px;
+    /*margin-top: -60px;*/
     font-size: 25px
 }
 
@@ -58,11 +58,11 @@ path {
 }
 
 .info-container {
-    max-width: 375px;
+    /*max-width: 375px;
     margin-top: 50px;
     margin-bottom: 25px;
     margin-left: 0%;
-    width: 30%
+    width: 30%*/
 }
 
 .agreeableness, .human-nature, .comparativeness, .causality {
@@ -130,11 +130,11 @@ path {
 
 @media only screen and (max-width: 600px) {
     .info-container {
-        max-width: 375px;
+        /*max-width: 375px;
         margin-top: 0px;
         margin-bottom: 25px;
         margin-left: 0%;
-        width: 30%
+        width: 30%*/
     }
 
     #title {
@@ -153,9 +153,24 @@ path {
     }
 
     .info-container {
-        margin-top: 20px;
+        /*margin-top: 20px;
         margin-bottom: 25px;
         margin-left: 0%;
-        width: 55%
+        width: 55%*/
     }
+}
+
+
+.close-popup-modal {
+    float: right;
+    margin: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
+    position: fixed;
+    z-index: 100000;
+    right: 14px;
 }

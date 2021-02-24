@@ -6,17 +6,40 @@
     <link href="https://fonts.googleapis.com/css?family=Pridi:200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <title></title>
 </head>
 <body>
-    <div id="animatedModal">
+    <div id="self-esteem">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
-        <div class="close-animatedModal">
+        <div id="btn-close-modal" class="close-self-esteem close-popup-modal"> <i class="fas fa-times"></i> </div>
+        <div class="modal-content">
+            <container>
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Geschäfts Eines<br> Web-Studios</h2>
+                    <div class="h-50"></div>
+                    <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                    <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                    <br>
+                    <br> <img src="crane.jpeg" alt="" class="img-fluid">
+                    <br>
+                    <br>
+                    <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                    <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                    <br>
+                    <br>
+                </div>
+            </container>
+        </div>
+    </div>
+    <div id="firmness">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-firmness">
             CLOSE MODAL
         </div>
 
         <div class="modal-content">
-            <!--Your modal content goes here-->
+            firmness
         </div>
     </div>
 
@@ -92,13 +115,13 @@
        d="M -1.2478662,44.217818 0.26714264,36.736981 2.604633,29.41687 4.6961041,23.45 6.726071,19.267076 9.2481326,15.57624 12.385315,11.3933 l 3.567809,-4.6135508 0.922699,-0.9841863 1.906927,2.0914625 1.045741,2.8296346 1.353293,3.936879 1.230282,3.198725 2.152987,2.029912 -3.075696,2.70662 -3.567784,2.952678 -3.01417,3.813859 -1.783912,3.93688 -0.98423,4.490482 -2.3375319,7.197141 -1.7838582,3.198683 -1.7224176,3.137169 -1.3232484,3.123905 -1.1308946,-1.217923 z"
        id="selfEsteem"
        inkscape:connector-curvature="0"
-       class="self-esteem" href="#animatedModal"/>
+       class="self-esteem" href="#self-esteem"/>
     <path
 
        d="m 16.875823,5.7955629 1.928357,-2.2254991 2.740301,-2.2183539 3.175264,-1.91384633 5.284855,-3.26228297 7.539848,-4.4666853 6.274402,-2.9526543 8.365875,-3.198718 3.444769,-1.353323 0.123034,7.0125731 0.123024,4.5520162 -5.659276,0.7382161 -5.167142,1.5993139 -5.290187,2.82962863 -3.32174,4.30601067 -5.290185,3.4447343 -3.32174,4.4289911 -2.091472,3.813852 -1.168757,2.95264 L 22.412066,17.852264 18.78275,7.8870254 16.875823,5.7955629"
        id="path1495"
        inkscape:connector-curvature="0"
-       class="firmness" />
+       class="firmness" href="#firmness"/>
     <path
 
        d="m 4.9722049,54.439593 0.8699648,0.956872 2.0008317,1.652928 2.7837936,3.175272 4.697639,6.350518 0.565464,-3.653722 3.066511,-6.589828 2.827308,-4.153845 2.348816,-4.480206 2.479324,-4.262724 2.000846,-2.000823 2.501069,-2.84903 2.566307,-3.892991 0.826443,-1.435356 -3.11002,-1.979177 -2.435825,-2.218287 -2.066105,-3.023079 -2.329519,-6.153939 -6.64348,5.659298 -3.01417,3.813859 -1.783912,3.93688 -0.98423,4.490482 -2.3375319,7.197141 -3.5062758,6.335852 -1.3232484,3.123905"
@@ -383,7 +406,12 @@
     <script src="scripts/scripts.js"></script>
 
     <script>
-        $(".self-esteem").animatedModal();
+        $(".self-esteem").animatedModal({
+            modalTarget: 'self-esteem'
+        });
+        $(".firmness").animatedModal({
+            modalTarget: 'firmness'
+        });
     </script>
 </body>
 </html>
