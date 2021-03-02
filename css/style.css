@@ -16,7 +16,7 @@ body {
 }
 
 .category {
-    padding: 20px;
+    /*padding: 20px;*/
     text-align: center
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 #region {
-    margin-top: -6%;
+    /*margin-top: -6%;*/
     font-size: 57px
 }
 
@@ -58,83 +58,99 @@ path {
 }
 
 .info-container {
-    /*max-width: 375px;
+    max-width: 375px;
     margin-top: 50px;
     margin-bottom: 25px;
     margin-left: 0%;
-    width: 30%*/
+    /*width: 30%*/
 }
 
-.agreeableness, .human-nature, .comparativeness, .causality {
+.close-popup-modal {
+    float: right;
+    margin: 20px;
+    font-size: 22px;
+    /*opacity: 0;*/
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
+    position: fixed;
+    z-index: 100000;
+    right: 14px;
+}
+
+
+.Lesrigoles, .MartinParr, .comparativeness, .Friends {
     fill: #fbe584
 }
 
-    .agreeableness:hover, .human-nature:hover, .comparativeness:hover, .causality:hover {
+    .Lesrigoles:hover, .MartinParr:hover, .comparativeness:hover, .Friends:hover {
         fill: #fdefb5;
         cursor: pointer
     }
 
-.bibativeness, .tune, .time, .locality, .eventuality, .calculation, .order, .color, .weight, .size, .individuality {
+.ThérapieTaxi, .CassandraCalin, .Elmer, .locality, .eventuality, .calculation, .order, .color, .weight, .size, .individuality {
     fill: #f19593
 }
 
-    .bibativeness:hover, .tune:hover, .time:hover, .locality:hover, .eventuality:hover, .calculation:hover, .order:hover, .color:hover, .weight:hover, .size:hover, .individuality:hover {
+    .ThérapieTaxi:hover, .CassandraCalin:hover, .Elmer:hover, .locality:hover, .eventuality:hover, .calculation:hover, .order:hover, .color:hover, .weight:hover, .size:hover, .individuality:hover {
         fill: #f7c1c0;
         cursor: pointer
     }
 
-.firmness, .self-esteem, .approbativeness, .conscientiousness, .cautiousness, .sublimity {
+.firmness, .GabrielPicolo, .HarryPotter, .conscientiousness, .SoniaDelaunay, .sublimity {
     fill: #b5b878
 }
 
-    .firmness:hover, .self-esteem:hover, .approbativeness:hover, .conscientiousness:hover, .cautiousness:hover, .sublimity:hover {
+    .firmness:hover, .GabrielPicolo:hover, .HarryPotter:hover, .conscientiousness:hover, .SoniaDelaunay:hover, .sublimity:hover {
         fill: #c7ca99;
         cursor: pointer
     }
 
-.continuity, .freindship, .conjugality, .amativeness, .parental-love, .inhabitiveness {
+.Davidlachapelle, .freindship, .MathurinMéheut, .désavoeux, .parental-love, .inhabitiveness {
     fill: #9b7894
 }
 
-    .continuity:hover, .freindship:hover, .conjugality:hover, .amativeness:hover, .parental-love:hover, .inhabitiveness:hover {
+    .Davidlachapelle:hover, .freindship:hover, .MathurinMéheut:hover, .désavoeux:hover, .parental-love:hover, .inhabitiveness:hover {
         fill: #b195ab;
         cursor: pointer
     }
 
-.vitativeness, .combativeness, .secretiveness, .aquisitiveness, .destructiveness, .alimentiveness {
+.Transfert, .combativeness, .Guggenheim, .Louvre, .destructiveness, .alimentiveness {
     fill: #a7b2a2
 }
 
-    .vitativeness:hover, .combativeness:hover, .secretiveness:hover, .aquisitiveness:hover, .destructiveness:hover, .alimentiveness:hover {
+    .Transfert:hover, .combativeness:hover, .Guggenheim:hover, .Louvre:hover, .destructiveness:hover, .alimentiveness:hover {
         fill: #c1c9be;
         cursor: pointer
     }
 
-.veneration, .benevolence, .hope, .spirituality, .imitation {
+.U-turn, .IsaureChassériau, .EternalSunshine, .spirituality, .imitation {
     fill: #e1a458
 }
 
-    .veneration:hover, .benevolence:hover, .hope:hover, .spirituality:hover, .imitation:hover {
+    .U-turn:hover, .IsaureChassériau:hover, .EternalSunshine:hover, .spirituality:hover, .imitation:hover {
         fill: #e9bc83;
         cursor: pointer
     }
 
-.mindfullness, .mirthfulness, .ideality, .constructiveness {
+.Bookworm, .mirthfulness, .ideality, .constructiveness {
     fill: #e48765
 }
 
-    .mindfullness:hover, .mirthfulness:hover, .ideality:hover, .constructiveness:hover {
+    .Bookworm:hover, .mirthfulness:hover, .ideality:hover, .constructiveness:hover {
         fill: #eca990;
         cursor: pointer
     }
 
 @media only screen and (max-width: 600px) {
     .info-container {
-        /*max-width: 375px;
+        max-width: 375px;
         margin-top: 0px;
         margin-bottom: 25px;
         margin-left: 0%;
-        width: 30%*/
+        width: 30%
     }
 
     #title {
@@ -153,25 +169,9 @@ path {
     }
 
     .info-container {
-        /*margin-top: 20px;
+        margin-top: 20px;
         margin-bottom: 25px;
         margin-left: 0%;
-        width: 55%*/
+        width: 55%
     }
 }
-
-
-.close-popup-modal {
-    float: right;
-    margin: 20px;
-    font-size: 22px;
-    cursor: pointer;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    -webkit-transition-delay: .6s;
-    transition-delay: .6s;
-    position: fixed;
-    z-index: 100000;
-    right: 14px;
-}
-
