@@ -187,13 +187,17 @@ path {
 }
 
 
-@media (orientation: landscape) {
+@media (orientation: portrait) {
     .portrait {
         width: 100%;
     }
 
     div[class^='col'], div[class*='col'] {
         width: 100%;
+    }
+
+    .svg-whole {
+        max-height: 100%;
     }
 }
 
