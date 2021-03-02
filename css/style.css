@@ -39,11 +39,11 @@ path {
     stroke: #fff1e6
 }
 
-.container {
+/*.container {
     display: flex;
     justify-content: center;
     margin-left: 0px
-}
+}*/
 
 .svg-whole {
     max-height: 425px
@@ -174,4 +174,28 @@ path {
         margin-left: 0%;
         width: 55%
     }
+
+    @media (orientation: portrait) {
+        .portrait {
+            width: 100%;
+        }
+
+        div[class^='col'], div[class*='col'] {
+            width: 100%;
+        }
+    }
+}
+
+
+@media (orientation: landscape) {
+    .portrait {
+        width: 100%;
+    }
+
+    div[class^='col'], div[class*='col'] {
+        width: 100%;
+    }
+}
+
+.modal-content > .container {
 }
