@@ -107,6 +107,7 @@ const pSBC = (p, c0, c1, l) => {
 
 $(document).ready(function () {
     $("path").click(function () {
+        jQuery('div.zoomIn:not(' + $(this).attr('href') +') .close-popup-modal').trigger('click');
         if ($(this).attr('clicked') != 'true') {
             var theColorIs = $(this).css("fill");
             var newcolor = pSBC(0.3, theColorIs)
@@ -114,4 +115,9 @@ $(document).ready(function () {
             $(this).attr('clicked', true);
         }
     });
+    //jQuery('.close-popup-modal').trigger('click');
+
+    //$("body").click(function () {
+    //    
+    //});
 });

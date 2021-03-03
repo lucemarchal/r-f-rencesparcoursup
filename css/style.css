@@ -187,6 +187,18 @@ path {
 }
 
 
+@media (orientation: landscape) {
+    .animated {
+        left: 50% !important;
+/*        z-index: 1000 !important;*/
+        right: 50% !important;
+    }
+
+    .modal-content {
+        width: 50%;
+    }
+}
+
 @media (orientation: portrait) {
     .portrait {
         width: 100%;
@@ -201,11 +213,13 @@ path {
     .svg-whole {
         max-height: 100%;
     }
+
+
 }
 
 .animated, .modal-content {
-    background-color: #ffe3cd!important;
- }
- 
-.modal-content > .container {
+    background-color: #ffe3cd !important;
 }
+
+    .modal-content > .container {
+    }
