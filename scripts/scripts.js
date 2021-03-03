@@ -42,7 +42,7 @@ document.querySelector(".inhabitiveness").onmouseover = function () { getInfo('J
 document.querySelector(".Transfert").onmouseover = function () { getInfo('Curiosité', 'Podcast Transfert de Slate.fr') };
 document.querySelector(".combativeness").onmouseover = function () { getInfo('Curiosité', 'Le Bauhaus, 1919 - 1936') };
 document.querySelector(".Guggenheim").onmouseover = function () { getInfo('Curiosité', 'Les musées Guggenheim (ceux de Bilbao et New York)') };
-document.querySelector(".Louvre").onmouseover = function () { getInfo('Curiositée', "Musée du Louvre d'Abu Dhabi") };
+document.querySelector(".Louvre").onmouseover = function () { getInfo('Curiosité', "Musée du Louvre d'Abu Dhabi") };
 document.querySelector(".destructiveness").onmouseover = function () { getInfo('Curiosité', 'mon titre') };
 document.querySelector(".alimentiveness").onmouseover = function () { getInfo('Curiosité', 'mon titre') };
 
