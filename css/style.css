@@ -17,7 +17,12 @@ body {
 
 .category {
     /*padding: 20px;*/
-    text-align: center
+    text-align: center;
+    font-size: 3em;
+}
+
+.categorycontainer{
+    position:absolute;
 }
 
 #title {

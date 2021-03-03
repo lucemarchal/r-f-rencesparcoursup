@@ -70,8 +70,8 @@ function getInfo(regionName, classname, pathBrain) {
     //thisPath.appendChild(newSvg);
 
     region.innerHTML = regionName;
-    subRegion.innerHTML = classname;
-    this.onmouseout = function () { region.innerHTML = "Mon univers en références"; subRegion.innerHTML = "" }
+    $("#subRegion").html(classname);
+    this.onmouseout = function () { region.innerHTML = "&nbsp;"; subRegion.innerHTML = "&nbsp;" }
 
 }
 
