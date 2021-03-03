@@ -203,5 +203,9 @@ path {
     }
 }
 
+.animated, .modal-content {
+    background-color: #ffe3cd!important;
+ }
+ 
 .modal-content > .container {
 }
