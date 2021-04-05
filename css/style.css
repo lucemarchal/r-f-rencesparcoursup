@@ -15,6 +15,10 @@ body {
     overflow: hidden
 }
 
+div[id^='animatedModal'] {
+    opacity: 0;
+}
+
 .category {
     /*padding: 20px;*/
     text-align: center;
